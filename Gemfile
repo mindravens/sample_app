@@ -14,6 +14,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'sdoc', '~> 1.1', group: :doc
 
 gem 'rails-controller-testing', '~> 1.0', '>= 1.0.4'
+gem 'bcrypt', '~> 3.1', '>= 3.1.13'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
