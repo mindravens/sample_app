@@ -1,8 +1,10 @@
 require 'test_helper'
 
-class SessionsControllerTest < ActionDispatch::IntegrationTest
+#class SessionsControllerTest < ActionDispatch::IntegrationTest
+class SessionsControllerTest < ActionController::TestCase
+
   test "should get new" do
-    get sessions_new_url
+    get :new
     assert_response :success
   end
 

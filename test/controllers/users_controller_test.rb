@@ -1,6 +1,5 @@
 require 'test_helper'
 
-#class UsersControllerTest < ActionDispatch::IntegrationTest
 class UsersControllerTest < ActionController::TestCase
   
   def setup
