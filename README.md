@@ -1,5 +1,10 @@
 # README
 
+TODO:
+
+    * Fix activation email on production
+    * Add AWS S3 bucket to store pictures on production
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
